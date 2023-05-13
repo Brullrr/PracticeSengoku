@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <meta charset = "UTF-8">
+        <title>GHHS 1st Grade</title>
+        <link rel = "stylesheet"
+        type = "text/css"
+        href = "style.css" />
+    </head>
+    <script defer type="text/javascript" src="app.js"></script>
+    <body>
+        <div class="overHead">
+            <div class="teamNames">
+                <p>1</p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p class="endBtn">6</p>
+            </div>
+            <div class='colorControls'>
+                <div class="teamOne">3</div>
+                <div class="teamTwo">3</div>
+                <div class="teamThree">3</div>
+                <div class="teamFour">3</div>
+                <div class="teamFive">3</div>
+                <div class="teamSix">3</div>
+            </div>
+        </div>
+        
+        <div class="JapanMap">
+            <svg class="JapanMapSVG" style="height: 880px; width: 880px;"> 
+                <!-- 1 -->
+            <path class="Aomori" d="
+                M730, 88 L716, 96 L700, 90 L698, 94 L674, 94 
+                L670, 80 L678, 70 L692, 66 L694, 60 L698, 30 
+                L704, 34 L714, 34 L718, 60 L728, 58 L728, 48 
+                L744, 58 L752, 36 L744, 26 L738, 34 L722, 38 
+                L722, 30 L730, 6 L754, 20 L762, 14 L758, 36 
+                L758, 58 L762, 76 L776, 90 L768, 98 L756, 98 
+                L734, 108 L736, 94Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);"></path>           
+                <!-- 2 -->
+                <path class="Akita" d="
+                M730, 88 L736, 94 L734, 108 L730, 114 L728, 132 
+                L726, 138 L726, 158 L718, 174 L728, 192 L726, 210 
+                L712, 216 L702, 204 L692, 204 L684, 196 L672, 198 
+                L680, 178 L682, 152 L676, 136 L664, 140 L660, 130 
+                L668, 132 L676, 120 L680, 100 L674, 94 L698, 94 
+                L700, 90 L716, 96Z  " 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);"></path>
+                <!-- 3 -->
+                
+            <path class="Iwate" d="
+                M778, 206 L768, 206 L766, 222 L748, 222 L746, 214 
+                L726, 210 L728, 192 L718, 174 L726, 158 L726, 138 
+                L728, 132 L730, 114 L734, 108 L756, 98 L768, 98 
+                L776, 90 L786, 106 L786, 118 L794, 124 L802, 160 
+                L798, 178 L788, 196 L790, 202Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);"></path>
+                <!-- 4 -->
+
+            <path class="Yamagata" d="
+                M684, 196 L692, 204 L702, 204 L712, 216 L718, 224 
+                L714, 242 L718, 248 L710, 264 L706, 278 L698, 288 
+                L696, 306 L680, 304 L678, 300 L666, 300 L658, 294 
+                L662, 272 L674, 262 L662, 254 L658, 244 L654, 242 
+                L666, 224 L672, 198Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);"></path>
+                <!-- 5 -->
+
+            <path class="Miyagi" d="
+                M768, 206 L778, 206 L778, 212 L768, 232 L774, 244 
+                L766, 252 L746, 254 L740, 270 L738, 292 L726, 302 
+                L722, 294 L698, 288 L706, 278 L710, 264 L718, 248 
+                L714, 242 L718, 224 L712, 216 L726, 210 L746, 214 
+                L748, 222 L766, 222Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255); "></path>
+                <!-- 6 -->
+
+            <path class="Niigata" d="
+                M659, 244 L662, 254 L674, 262 L662, 272 L658, 294 
+                L666, 300 L654, 316 L656, 324 L634, 330 L632, 346 
+                L636, 352 L636, 370 L628, 360 L620, 366 L616, 378 
+                L602, 386 L602, 376 L592, 362 L576, 376 L560, 378 
+                L552, 372 L546, 384 L538, 366 L554, 360 L566, 352 
+                L576, 350 L592, 336 L604, 320 L610, 304 L626, 290 
+                L634, 286 L646, 272 L648, 258 L654, 242 M574, 302 
+                L580, 288 L574, 288 L580, 270 L592, 260 L586, 276 
+                L594, 280 L590, 292Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);"></path>
+                <!-- 7 -->
+            
+            <path class="Fukushima" d="
+                M698, 288 L722, 294 L726, 302 L738, 292 L742, 304 
+                L746, 336 L742, 364 L732, 374 L718, 368 L712, 380 
+                L698, 370 L698, 362 L680, 352 L650, 368 L644, 372 
+                L636, 370 L636, 352 L632, 346 L634, 330 L656, 324 
+                L654, 316 L666, 300 L678, 300 L680, 304 L696, 306Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);"></path>
+                <!-- 8 -->
+          
+            <path class="Tochigi" d="
+                M680, 352 L698, 362 L698, 370 L700, 388 L694, 412 
+                L674, 418 L666, 428 L662, 426 L650, 422 L644, 414 
+                L652, 398 L642, 394 L644, 372 L650, 368Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);"></path>
+                <!-- 9 -->
+
+            <path class="Gunma" d="
+                M628, 360 L636, 370 L644, 372 L642, 394 L652, 398 
+                L644, 414 L650, 422 L662, 426 L650, 428 L630, 422 
+                L624, 434 L604, 444 L600, 442 L596, 422 L600, 412 
+                L584, 410 L588, 394 L602, 386 L616, 378 L620, 366Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255); "></path>
+                <!-- 10 -->
+
+            <path class="Nagano" d="
+                M592, 362 L602, 376 L602, 386 L588, 394 L584, 410 
+                L600, 412 L596, 422 L600, 442 L604, 444 L604, 452 
+                L582, 448 L572, 460 L574, 472 L568, 480 L568, 494 
+                L548, 506 L532, 508 L532, 500 L536, 492 L526, 462 
+                L518, 460 L534, 444 L532, 436 L538, 418 L534, 414 
+                L544, 398 L546, 384 L552, 372 L560, 378 L576, 376Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);"></path>
+                <!-- 11 -->
+
+            <path class="Toyama" d="
+                M498, 368 L502, 368 L498, 374 L510, 384 L518, 384 
+                L524, 370 L538, 366 L546, 384 L544, 398 L534, 414 
+                L522, 408 L506, 408 L498, 420 L490, 414 L484, 420 
+                L486, 386 L492, 370Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);"></path>
+                <!-- 12 -->
+            
+            <path class="Ibaraki" d="
+                M718, 368 L732, 374 L720, 406 L718, 422 L724, 442 
+                L738, 464 L728, 456 L712, 450 L694, 456 L676, 444 
+                L670, 436 L670, 436 L666, 428 L674, 418 L694, 412 
+                L700, 388 L698, 370 L712, 380Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);"></path>
+                <!-- 13 -->
+                       
+            <path class="Gifu" d="
+                M522, 408 L534, 414 L538, 418 L532, 436 L534, 444 
+                L518, 460 L526, 462 L536, 492 L532, 500 L524, 506 
+                L510, 502 L496, 490 L482, 494 L476, 510 L466, 502 
+                L460, 504 L462, 492 L452, 470 L456, 462 L484, 460 
+                L486, 452 L482, 436 L488, 424 L484, 420 L490, 414 
+                L498, 420 L506, 408Z   " 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);"></path>
+                <!-- 14 -->
+                 
+            <path class="Shiga" d="
+                M444, 466 L452, 470 L462, 492 L460, 504 L462, 510 
+                L456, 530 L444, 530 L434, 538 L424, 530 L424, 510 
+                L420, 494 L422, 488 L446, 478Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255); "></path>
+                <!-- 15 -->
+              
+            <path class="Kyoto" d="
+                M402, 476 L406, 492 L420, 494 L424, 510 L424, 530 
+                L434, 538 L436, 542 L426, 544 L416, 538 L412, 530 
+                L394, 518 L396, 510 L384, 508 L382, 500 L366, 494 
+                L374, 486 L364, 468 L386, 458 L392, 466 L384, 476Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255); "></path>
+                <!-- 16 -->
+              
+            <path class="Hyogo" d="
+                M364, 468 L374, 486 L366, 494 L382, 500 L384, 508 
+                L396, 510 L394, 518 L400, 526 L398, 546 L390, 542 
+                L368, 548 L348, 536 L328, 540 L324, 530 L324, 518 
+                L334, 500 L340, 496 L334, 470 L344, 466Z M352, 584 
+                L348, 576 L356, 562 L370, 550 L364, 564 L366, 578Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255); "></path>
+                <!-- 17 -->
+                
+            <path class="Okayama" d="
+                M308, 490 L320, 504 L334, 500 L324, 518 L324, 530 
+                L328, 540 L304, 556 L292, 560 L286, 554 L272, 558 
+                L268, 532 L262, 512 L278, 502 L284, 490 L298, 498Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255); "></path>
+                <!-- 18 -->
+                
+            <path class="Ishikawa" d="
+                M498, 368 L492, 370 L486, 386 L484, 420 L488, 424 
+                L482, 436 L456, 428 L450, 420 L464, 408 L482, 378 
+                L484, 364 L478, 352 L484, 336 L518, 324 L516, 338 
+                L496, 346 L492, 358 L502, 356 L502, 368Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);"></path>
+                <!-- 19 -->
+
+            <path class="Hiroshima" d="
+                M238, 506 L254, 510 L262, 512 L268, 532 L272, 558 
+                L266, 566 L258, 562 L240, 566 L218, 576 L212, 572 
+                L212, 564 L202, 562 L194, 572 L188, 572 L184, 552 
+                L190, 534 L196, 528 L214, 530Z
+                " 
+               stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255); "></path>
+                <!-- 20 -->
+                
+            <path class="Yamaguchi" d="
+                M12, 554 L6, 548 L12, 526 L22, 526 L12, 544Z 
+                M162, 542 L160, 554 L168, 566 L176, 566 L184, 552 
+                L188, 572 L194, 572 L188, 602 L160, 584 L148, 588 
+                L140, 584 L136, 590 L126, 592 L118, 582 L106, 590 
+                L108, 564 L116, 554 L140, 554 L156, 536 L160, 536Z
+                M198, 602 L188, 598 L196, 594Z M2, 570 L2, 550 
+                L10, 554Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255); "></path>
+                <!-- 21 -->
+                
+            <path class="Shimane" d="
+                M266, 480 L264, 494 L256, 498 L254, 510 L238, 506 
+                L214, 530 L196, 528 L190, 534 L184, 552 L176, 566 
+                L168, 566 L160, 554 L162, 542 L160, 536 L168, 534 
+                L188, 516 L202, 508 L210, 498 L222, 492 L224, 480 
+                L246, 474 L254, 468 L264, 470 L268, 478Z M266, 424 
+                L262, 414 L274, 416Z
+            " 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);"></path>
+                <!-- 22 -->
+                  
+            <path class="Saitama" d="
+                M630, 422 L650, 428 L662, 426 L666, 428 L670, 436 
+                L678, 454 L676, 460 L646, 462 L640, 456 L622, 452 
+                L618, 456 L604, 452 L604, 444 L624, 434Z
+            " 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);"></path>
+                <!-- 23 -->
+            
+            <path class="Chiba" d="
+                M670, 436 L676, 444 L694, 456 L712, 450 L728, 456 
+                L738, 464 L722, 468 L714, 478 L710, 492 L710, 506 
+                L694, 512 L682, 530 L674, 508 L678, 488 L692, 474 
+                L684, 468 L678, 472 L676, 460 L678, 454 L670, 436Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255); "></path>
+                <!-- 24 -->
+            
+            <path class="Yamanashi" d="
+                M582, 448 L604, 452 L618, 456 L630, 470 L628, 482 
+                L616, 492 L602, 494 L596, 488 L592, 508 L584, 508 
+                L576, 498 L574, 476 L574, 472 L572, 460Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255); "></path>
+                <!-- 25 -->
+                
+            <path class="Tokyo" d="
+                M622, 452 L640, 456 L646, 462 L676, 460 L678, 472 
+                L672, 482 L654, 472 L652, 482 L646, 476 L630, 470 
+                L618, 456Z
+           " 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255); "></path>
+                <!-- 26 -->
+         
+            <path class="Kanagawa" d="
+                M630, 470 L646, 476 L652, 482 L654, 472 L672, 482 
+                L662, 486 L668, 506 L662, 510 L658, 500 L638, 500 
+                L630, 512 L616, 492 L628, 482Z
+           " 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);  "></path>
+                <!-- 27 -->
+         
+            <path class="Shizuoka" d="
+                M574, 476 L576, 498 L584, 508 L592, 508 L596, 488 
+                L602, 494 L616, 492 L630, 512 L630, 532 L612, 554 
+                L606, 548 L610, 514 L594, 516 L594, 522 L582, 530 
+                L572, 550 L574, 554 L558, 550 L526, 548 L528, 536 
+                L536, 532 L546, 514 L548, 506 L568, 494 L568, 480 
+                L574, 472Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);  "></path>
+                <!-- 28 -->
+         
+            <path class="Aichi" d="
+                M496, 490 L510, 502 L524, 506 L532, 500 L532, 508 
+                L548, 506 L546, 514 L536, 532 L528, 536 L526, 548 
+                L498, 554 L516, 542 L510, 536 L500, 540 L492, 532 
+                L492, 546 L488, 542 L486, 530 L488, 516 L478, 518 
+                L476, 510 L482, 494Z
+            " 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);  "></path>
+                <!-- 29 -->
+            
+            <path class="Mie" d="
+                M466, 502 L476, 510 L478, 518 L468, 540 L466, 552 
+                L492, 566 L490, 580 L480, 580 L476, 574 L470, 580 
+                L450, 588 L450, 600 L436, 612 L432, 622 L422, 614 
+                L422, 608 L438, 598 L440, 580 L436, 570 L446, 560 
+                L436, 554 L436, 542 L434, 538 L444, 530 L456, 530 
+                L462, 510 L460, 504Z
+            " 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255);"></path>
+                <!-- 30 -->
+         
+            <path class="Fukui" d="
+                M450, 420 L456, 428 L482, 436 L486, 452 L484, 460 
+                L456, 462 L452, 470 L444, 466 L446, 478 L422, 488 
+                L420, 494 L406, 492 L402, 476 L404, 482 L418, 482 
+                L424, 472 L438, 470 L442, 460 L432, 444Z
+                " 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255); "></path>
+                <!-- 31 -->
+        
+            <path class="Nara" d="
+                M414, 538 L416, 538 L426, 544 L436, 542 L436, 554 
+                L446, 560 L436, 570 L440, 580 L438, 598 L422, 608 
+                L406, 608 L402, 594 L412, 582 L410, 570Z" 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255); "></path>
+                <!-- 32 -->
+            
+            <path class="Wakayama" d="
+                M408, 570 L410, 570 L412, 582 L402, 594 L406, 608 
+                L422, 608 L422, 614 L432, 622 L428, 634 L416, 642 
+                L400, 638 L388, 626 L392, 622 L372, 608 L374, 594 
+                L382, 588 L374, 574 L376, 578Z
+                " 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255); "></path>
+                <!-- 33-->
+            
+            <path class="Osaka" d="
+                M414, 538 L410, 570 L408, 570 L376, 578 L374, 574 
+                L384, 572 L400, 552 L398, 546 L400, 526 L394, 518 
+                L412, 530 L416, 538Z
+            " 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255); "></path>
+                <!-- 34 -->
+            
+            <path class="Tottori" d="
+                M334, 470 L340, 496 L334, 500 L320, 504 L308, 490 
+                L298, 498 L284, 490 L278, 502 L262, 512 L254, 510 
+                L256, 498 L264, 494 L266, 480 L268, 478 L284, 474 
+                L312, 476Z
+                " 
+           stroke="grey" stroke-width="2.0" style="fill: rgb(255, 255, 255); "></path>
+                  
+            </svg>
+         </div> 
+        <div class="prefectureNames">
+            <p class="prefectureName">Japan</p>
+        </div>
+        <button class="playBtn">Click to start!</button>
+        <div class='backdrop'></div>
+        <div class="module">
+            <p class="hintLetter"></p>
+            <div class='flashcardContainer'>
+                <p class="theFlashcard">Something</p> 
+                <div class="failOrPassButtonHolder">
+
+                </div>
+            </div>
+        </div>
+       
+        
+        
+    </body>
+</html>

@@ -1,0 +1,190 @@
+body {
+    background: linear-gradient(to right, grey, #6699CC);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.overHead { 
+    background-color: transparent;
+}
+
+.prefectureNames {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    background: transparent;
+    height: calc(8vh + 8vw);
+    width: calc(22vh + 22vw);
+    text-align: center;
+    border-radius: 16px;
+    
+}
+.prefectureName {
+    line-height: calc(8vh + 8vw);
+    height: calc(8vh + 8vw);
+    width: calc(22vh + 22vw);
+    margin: 0;
+    padding: 0;
+    font-size: calc(4vh + 4vw);
+    font-weight: bolder;
+    color: white;
+}
+
+.teamNames {
+    background-color: transparent;
+    text-align: center;
+    height: 5vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.teamNames p {
+    display: inline-block;
+    font-weight: bold;
+    margin-top: .5vh;
+    font-size: 4vh;
+}
+
+.colorControls {
+    display: grid;
+    text-align: center;
+    background-color: transparent;
+    text-align: center;
+    height: 10vh;
+    grid-template-columns: 17% 16.5% 16.5% 16.5% 16.5% 16.5% 17%;
+}
+.colorControls div {
+    color: white;
+    justify-self: center;
+    height: 8vh;
+    line-height: 8vh;
+    font-size: 60px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 10vw;
+    margin-top: 1vh;
+    cursor: pointer;
+}
+
+.teamOne {
+    background-color: Red;
+    box-shadow: 0px 1px 5px 5px red;
+}
+.teamTwo {
+    background-color: Orange;
+    box-shadow: 0px 1px 5px 5px orange;
+    visibility: hidden;
+}
+.teamThree {
+    background-color: Yellow;
+    box-shadow: 0px 1px 5px 5px yellow;
+    visibility: hidden;
+
+}
+.teamFour {
+    background-color: Green;
+    box-shadow: 0px 1px 5px 5px green;
+    visibility: hidden;
+
+}
+.teamFive {
+    background-color: Blue;
+    box-shadow: 0px 1px 5px 5px blue;
+    visibility: hidden;
+
+}
+.teamSix {
+    background-color: black;
+    box-shadow: 0px 1px 5px 5px black;
+}
+
+.JapanMap {
+    width: 900px;
+    height: 900px;
+}
+.JapanMapSVG {
+    display: inline-block;
+    background-color: transparent;
+    
+}
+
+.playBtn {
+    position: absolute;
+    right: 2%;
+    bottom: 5%;
+    height: 250px;
+    width: 350px;
+    color: cornsilk;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(red,  purple);
+    border: 2px solid rgb(16, 16, 17);
+    border-radius: 12px;
+}
+
+
+
+.backdrop.active {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.module.active {
+    text-align: center;
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px black;
+    padding: 0px;
+    left: 10%;
+    top: 5%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    height: 90%;
+}
+
+.hintLetter {
+    margin: 0;
+    padding: 0;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.flashcardContainer {
+    font-size: calc(2vh + 2vw);
+    font-weight: bold;
+}
+.theFlashcard {
+    margin: 0;
+    padding: 0;
+    font-size: calc(8vh + 3vw);
+    height: 50vh;
+    line-height: 50vh;
+}
+.faiOrPassButtonHolder {
+    background-color: transparent;
+}
+.buttonDoYouKnow {
+    height: calc(10vh + 5vw);
+    width: calc(5vh + 10vw);
+    background-color: #77cc667b;
+    border: 1px solid black;
+    font-size: calc(2vh + 2vw);
+    border-radius: calc(2vh + 2vw);
+}
+.buttonYouDidKnow {
+    height: calc(10vh + 5vw);
+    width: calc(5vh + 10vw);
+    background-color: #cc6d667b;
+    border: 1px solid black;
+    font-size: calc(2vh + 2vw);
+    border-radius: calc(2vh + 2vw);
+}
